@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2022, 2026
+
 resource "aws_instance" "this" {
   ami           = "ami-674cbc1e"
   instance_type = "m5.8xlarge"
